@@ -18,7 +18,8 @@ public class RcbTeam {
         	String path = System.getProperty("user.dir");
         	
         	String filePAth = path+"\\src\\test\\resources\\TestData\\RCBTeam.json";
-        //	System.out.println(filePAth);         	
+        //	System.out.println(filePAth);  
+        	
         	FileReader file = new FileReader(filePAth);
         	
         	JSONObject jsonObject = (JSONObject) parser.parse(file);
